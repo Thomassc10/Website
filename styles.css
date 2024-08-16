@@ -33,6 +33,14 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #e67e22;
+    color: #fff;
 }
 
 main {
